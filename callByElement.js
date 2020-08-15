@@ -15,11 +15,11 @@ a = a[5].innerHTML = "Hello";
 console.log(a);
 let tagName = document.getElementsByTagName(title); //h1 h2 body ...etc
 console.log(tagName);
-
 //제이쿼리로 치면 $("#title").on() 의 형식으로 쓰임.
 const titleNew = document.querySelector("#title");
 console.log(titleNew);
 
+console.dir(window);
 //console.error("oooooooh Noooooo!!");
 
 //Document Object Module

@@ -31,6 +31,8 @@ const minus = calculator.minus(10, 5);
 const multiplication = calculator.multiplication(3, 3);
 
 console.log(plus);
+//백틱은 ES2015부터 사용이가능하다.
+console.dir(`plus의 dir는 ${plus} 입니다.`);
 console.log(minus);
 console.log(multiplication);
 // ,를 사용할경우 각각의 값을 나타낼 수 있다.
