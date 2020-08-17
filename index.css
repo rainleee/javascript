@@ -2,6 +2,30 @@ body {
   background-color: antiquewhite;
 }
 
-h1 {
-  color: brown;
+.btn {
+  /*이 class에 cursor를 가져다 대면 포인터가 생긴다.*/
+  cursor: pointer;
+}
+
+body {
+  color: #16a085;
+  /*ease-in-out : 전환효과가 천천히 시작되어 천천히 끝납니다.*/
+  /*transition: color 0.5s ease-in-out; */
+}
+
+/*
+  class의 이름을 css로 미리지정. 
+  이유: css의 색 변화는 css파일에서만 이뤄지게하고싶다. (JS에서 색 바꾸게하기 X)
+*/
+.clicked {
+  color: #9f9fa0;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
