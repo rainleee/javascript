@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  color: #16a085;
+  color: #ffffff;
   /*ease-in-out : 전환효과가 천천히 시작되어 천천히 끝납니다.*/
   /*transition: color 0.5s ease-in-out; */
 }
@@ -28,4 +28,14 @@ body {
 
 .showing {
   display: block;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
